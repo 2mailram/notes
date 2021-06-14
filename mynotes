@@ -5,3 +5,6 @@ enable bidirectional for copy in settings
 
 install basic updates
 
+======
+git bash first command
+echo $'\n'"export PS1='${PS1//\\n/}'" >> ~/.bash_profile
