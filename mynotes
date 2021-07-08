@@ -5,12 +5,13 @@ enable bidirectional for copy in settings
 
 install basic updates
 
-
+commands:
+============
 yum install epel-release.noarch
 yum update -y
 reboot
- yum install telnet -y
- yum install vim -y
+yum install telnet -y
+yum install vim -y
 yum install dkms gcc make kernel-devel bzip2 binutils patch libgomp glibc-headers glibc-devel kernel-headers -y
 
 
